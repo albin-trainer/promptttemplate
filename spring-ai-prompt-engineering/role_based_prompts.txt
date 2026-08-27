@@ -1,0 +1,76 @@
+Role prompting doesn't change the question—it 
+changes the perspective from which the LLM answers.
+
+{
+  "role":"Customer Support Executive",
+  "review":"The laptop hangs frequently and the battery drains quickly."
+}
+Expected style:
+
+Apologizes
+Empathetic
+Suggests contacting support
+
+Response  i received !!!:
+Thank you for sharing your feedback with us. I'm sorry to hear that you're experiencing issues with your laptop hanging and the battery draining quickly. Let's work together to address these problems.
+
+1. **Laptop Hanging**: This could be due to several reasons, such as software conflicts or insufficient memory. I recommend checking if there are any updates available for your operating system and software applications. Closing unnecessary programs running in the background can also help improve performance.
+
+2. **Battery Draining**: Battery life can be affected by various factors, including screen brightness, background applications, and power settings. Try reducing the screen brightness and closing apps that you're not using. You can also check your power settings to ensure they are optimized for better battery life.
+
+If these steps don't resolve the issues, please reach out to our technical support team. They can provide more detailed assistance and explore whether there might be a hardware issue that needs attention. We're here to help and ensure that you have a smooth experience with your laptop.
+
+--------------------------------------------------------------------------------
+Quality Assurance Manager
+{
+  "role":"Quality Assurance Manager",
+  "review":"The laptop hangs frequently and the battery drains quickly."
+}
+Expected style:
+
+Identifies defects
+Mentions root cause
+Recommends investigation
+------------------------------------------
+Response i  received !!!!
+As a Quality Assurance Manager, my initial step would be to acknowledge the customer's concerns and identify the root causes of the issues mentioned in the review. Here's a simple analysis:
+
+1. **Frequent Hanging**: This could be due to multiple factors such as insufficient RAM, software glitches, or overheating. I would recommend conducting thorough testing to identify any software bugs or hardware limitations that could be causing the laptop to hang.
+
+2. **Quick Battery Drain**: This may be related to battery health, power-hungry applications running in the background, or inefficient power management settings. I would suggest checking the battery's performance through diagnostics and ensuring that the device's power management settings are optimized.
+
+Next steps would involve:
+
+- Collaborating with the technical team to replicate these issues and gather data.
+- Reviewing any recent software updates or changes that might have impacted performance.
+- Providing feedback to the design and development teams for potential product improvements.
+- Communicating with customer support to offer solutions or workarounds to affected users, such as software patches or guidance on optimizing device settings.
+
+Ultimately, addressing these concerns promptly will help improve customer satisfaction and product reliability.
+--------------------------------------------------------------------------------------------
+Product Manager
+Expected style:
+
+Identifies product improvement opportunities
+Prioritizes battery and performance issues
+Mentions roadmap or feature enhancements
+---------------------------------
+Response i received !!!!
+Based on the customer review, it looks like there are two main issues with the laptop: frequent hanging and a battery that drains quickly. As a Product Manager, here’s how I would analyze this:
+
+1. **Frequent Hanging**: This could be due to hardware limitations, software bugs, or compatibility issues. It’s important to investigate if this is a widespread problem among other users or an isolated case. We might need to work with the engineering team to identify and fix any underlying software bugs or consider hardware limitations that may require design improvements.
+
+2. **Battery Draining Quickly**: This issue could be related to battery quality, power management settings, or inefficient software usage. We should look into battery performance data and user settings to see if there’s a common factor causing the quick drain. This might involve reaching out to the design or engineering teams to explore potential improvements in battery technology or software optimization.
+
+Overall, addressing these issues is crucial for enhancing customer satisfaction and maintaining product quality. We should prioritize resolving these problems and communicate any updates or solutions to affected customers.
+---------------------------------------
+Marketing Analyst
+-------------
+Response i received !!!!
+Based on the customer review, there are two main issues with the laptop: frequent hanging and a battery that drains quickly. 
+
+1. **Performance Issue**: The laptop hangs frequently, which suggests there may be problems with its processing power, software, or memory. This can lead to a frustrating user experience, as it affects the laptop's ability to run smoothly and efficiently.
+
+2. **Battery Life Issue**: The battery drains quickly, indicating that the laptop may not be energy-efficient or that the battery capacity is insufficient for the user's needs. This can be inconvenient for users who need to use the laptop on the go without constant charging.
+
+For marketing purposes, addressing these issues is crucial. Consider improving the product's performance and battery life in future models. Additionally, communicate any updates or fixes to current users and potential customers to rebuild trust and enhance the product's reputation.

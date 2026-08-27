@@ -58,4 +58,9 @@ VALUES
 ('ORD1008', 'Divya', 'Apple AirPods', 2,
  'DELIVERED', '2026-08-15', '2026-08-20',
  'Bangalore');
+-------------------
+http://localhost:8080/orders/ask?question=who ordered laptop
+http://localhost:8080/orders/ask?question=for ORD1001 what product is ordered and what is the shipping address
+http://localhost:8080/orders/ask?question=order ORD1001 is delivered or not
+
 

@@ -1,0 +1,26 @@
+Level 3
+User
+ ↓
+LLM / ChatClient
+ ↓
+MCP Client
+ ├────────→ HR MCP Server
+ │              ├── getEmployeeDetails
+ │              └── getLeaveBalance
+ │
+ └────────→ Hotel MCP Server
+                ├── searchHotels
+                ├── checkAvailability
+                └── bookHotel
+                Check employee 101's leave balance. If they have at least 1 day of leave remaining, search hotels in Munnar. If they have no leave remaining, don't search for hotels
+                
+                Level 3 and basic Level 4 can be implemented using the same Spring AI + MCP + 
+                ChatClient foundation. 
+   The major difference is the degree of autonomous goal-oriented decision-making and orchestration. Prompting can enable some of that behavior, but a production Level-4 agent usually adds explicit state, planning, guardrails, approvals, retries, and step control
+   
+   Discover/use tools from multiple MCP servers.
+Decide which tool to call.
+Receive the tool result.
+Use the result to decide whether another tool should be called.
+Continue with another MCP tool.
+Produce a final response.
