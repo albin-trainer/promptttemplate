@@ -5,6 +5,7 @@ import java.util.Map;
 
 import org.springframework.ai.document.Document;
 import org.springframework.ai.vectorstore.VectorStore;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.context.annotation.Configuration;
 
@@ -17,7 +18,7 @@ public class OrderRagConfig {
     private final VectorStore vectorStore;
 
     public OrderRagConfig(
-            JdbcTemplate jdbcTemplate,
+            JdbcTemplate jdbcTemplate,     @Qualifier("orderVectorStore")
             VectorStore vectorStore) {
 
         this.jdbcTemplate = jdbcTemplate;
