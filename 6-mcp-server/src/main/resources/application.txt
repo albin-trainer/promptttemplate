@@ -1,0 +1,7 @@
+spring.application.name=6-mcp-server
+
+spring.ai.openai.api-key={ur key}
+spring.ai.mcp.server.protocol=STREAMABLE
+spring.ai.mcp.server.name=hr-mcp-server
+spring.ai.mcp.server.version=1.0.0
+server.port=8081

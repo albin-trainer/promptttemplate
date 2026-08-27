@@ -1,0 +1,8 @@
+spring.application.name=9-web-search
+
+server.port=8080
+
+# OpenAI
+spring.ai.openai.api-key= {your key}
+# Tavily
+tavily.api-key={your key}

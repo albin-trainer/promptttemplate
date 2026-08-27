@@ -1,0 +1,4 @@
+spring.application.name=2-tools-calling
+spring.ai.openai.api-key={your key}}
+# for imag
+spring.ai.openai.chat.options.model=gpt-4o

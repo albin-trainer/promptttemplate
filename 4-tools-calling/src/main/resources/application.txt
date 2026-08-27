@@ -1,0 +1,16 @@
+spring.application.name=4-tools-calling
+spring.ai.openai.api-key={your key}
+# for imag
+spring.ai.openai.chat.options.model=gpt-4o
+
+
+spring.datasource.url=jdbc:mysql://localhost:3306/spring_ai
+spring.datasource.username=root
+spring.datasource.password=root
+
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+# Instructs Hibernate to drop existing tables and create new ones on startup
+spring.jpa.hibernate.ddl-auto=update
+
+# (Optional) Displays the generated DDL/SQL commands in your console
+spring.jpa.show-sql=true
