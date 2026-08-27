@@ -1,3 +1,25 @@
+application.properties 
+spring.application.name=10-order-app-rag-db
+
+# PostgreSQL
+spring.datasource.url=jdbc:postgresql://localhost:5432/postgres
+spring.datasource.username=postgres
+spring.datasource.password=root
+
+# OpenAI
+spring.ai.openai.api-key= {your key}
+
+# PGVector
+spring.ai.vectorstore.pgvector.initialize-schema=true
+spring.ai.vectorstore.pgvector.index-type=HNSW
+spring.ai.vectorstore.pgvector.table-name=vector_store_orders
+spring.ai.vectorstore.pgvector.distance-type=COSINE_DISTANCE
+spring.ai.vectorstore.pgvector.dimensions=1536
+spring.ai.openai.embedding.options.model=text-embedding-3-small
+
+--------------------
+create tables in post gres
+--------------------------
 CREATE TABLE orders (    id BIGSERIAL PRIMARY KEY,    order_number VARCHAR(50) UNIQUE NOT NULL,    customer_name VARCHAR(100) NOT NULL,    product_name VARCHAR(200) NOT NULL,    quantity INTEGER NOT NULL,    order_status VARCHAR(50) NOT NULL,    order_date DATE NOT NULL,    expected_delivery_date DATE,    shipping_address VARCHAR(300)
 );
 
